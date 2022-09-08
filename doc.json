@@ -1,0 +1,59 @@
+{
+  "name": "Building-swatch",
+  "description": "Swatch tool for custom colors",
+  "author": "Aware",
+  "commands": [
+    {
+      "name": "/swatch",
+      "description": "Add a brick with specified color to your clipboard",
+      "example": "/swatch hex",
+      "args": [
+        {
+          "name": "hex",
+          "description": "hex of the color",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/swatch",
+      "description": "Add a brick with specified color to your clipboard",
+      "example": "/swatch r g b",
+      "args": [
+        {
+          "name": "r",
+          "description": "Red value",
+          "required": true
+        },
+        {
+          "name": "g",
+          "description": "Green value",
+          "required": true
+        },
+        {
+          "name": "b",
+          "description": "Blue value",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "config": {
+    "only-authorized": {
+      "description": "Whether only authorized players can use swatch commands",
+      "type": "boolean",
+      "default": false
+    },
+    "authorized-users": {
+      "description": "List of players who can always use swatch commands",
+      "type": "players",
+      "default": []
+    },
+    "authorized-roles": {
+      "description": "List of roles who can always use swatch commands",
+      "type": "list",
+      "itemType": "role",
+      "default": ["Admin"]
+    }
+  }
+}
