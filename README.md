@@ -10,4 +10,5 @@ Generates a brick with a specific color
 
 ## Commands
 
- * `/swatch` - generate a brick with the color
+ * `/swatch red green blue` - generate a brick with the color
+ * `/swatch hex` - generate a brick with the color
