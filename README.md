@@ -3,7 +3,7 @@
 Generates a brick with a specific color
 
 ## Install
-* `omegga install gh:mraware/omegga-swatch`
+* `omegga install gh:mraware/swatch`
 
 ### Manual
 * `git clone https://github.com/mraware/omegga-swatch` in `plugins` directory
