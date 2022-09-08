@@ -3,8 +3,10 @@
 Generates a brick with a specific color
 
 ## Install
+* `omegga install gh:mraware/omegga-swatch`
 
-* `git clone https://github.com/mraware/omegga-swatch swatch` in `plugins` directory
+### Manual
+* `git clone https://github.com/mraware/omegga-swatch` in `plugins` directory
 
 ## Commands
 
